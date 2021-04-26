@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Github App</string>
+    <string name="username">Nome utente</string>
+    <string name="location">Posizione</string>
+    <string name="kerja">ufficio</string>
+    <string name="nama_github"> Nome</string>
+    <string name="repository">deposito :</string>
+    <string name="followers">Seguaci</string>
+    <string name="following">A seguire</string>
+    <string name="bagikan">Condividere</string>
+    <string name="isi_followers">0</string>
+    <string name="isi_following">0</string>
+    <string name="search">Ricerca</string>
+    <string name="not_avail">Non disponibile</string>
+    <string name="tab_text_1">Seguaci %1$d</string>
+    <string name="tab_text_2">A seguire %1$d</string>
+    <string name="tab_text_3"> Ambientazione</string>
+    <string name="detail_act">Profilo dettagliato</string>
+</resources>
