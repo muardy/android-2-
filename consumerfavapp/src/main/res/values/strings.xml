@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Consumer App</string>
+    <string name="username">Usermamam mia</string>
+    <string name="location">Location</string>
+    <string name="kerja">Office</string>
+    <string name="nama_github"> Name</string>
+    <string name="repository">Repository :</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="bagikan">Share</string>
+    <string name="isi_followers">0</string>
+    <string name="isi_following">0</string>
+    <string name="search">Search</string>
+    <string name="not_avail">Unavailable</string>
+    <string name="tab_text_1">Followers %1$d</string>
+    <string name="tab_text_2">Following %1$d</string>
+    <string name="tab_text_3">Setting</string>
+    <string name="detail_act">Detail Profile</string>
+    <string name="fav">Favorite</string>
+    <string name="setting">Settings</string>
+    <string name="remind">Reminder</string>
+    <string name="language">language settings</string>
+</resources>

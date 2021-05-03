@@ -1,2 +1,4 @@
+include ':consumerapp'
+include ':consumerfavapp'
 include ':app'
 rootProject.name = "ardysubmisfunda"

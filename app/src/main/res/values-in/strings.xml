@@ -17,4 +17,11 @@
     <string name="tab_text_2">Mengikuti %1$d</string>
     <string name="tab_text_3">Pengaturan</string>
     <string name="detail_act">Profil Detail</string>
+    <string name="fav">Favorit</string>
+    <string name="setting">Pengaturan</string>
+    <string name="remind">Peringatan</string>
+    <string name="language">Pengaturan Bahasa </string>
+    <string name="add_widget">Add widget</string>
+    <string name="appwidget_text">STAR WARS BANNER</string>
+    <string name="empty_text">NO DATA</string>
 </resources>

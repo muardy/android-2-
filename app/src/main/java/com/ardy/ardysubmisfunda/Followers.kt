@@ -67,13 +67,12 @@ class Followers : Fragment() {
         binding.progressBar.visibility = View.VISIBLE
         val client = AsyncHttpClient()
         val url = "https://api.github.com/users/$username/followers"
-        client.addHeader("Authorization","token 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")
+        client.addHeader("Authorization","token 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")
         client.addHeader("User-Agent","request")
         client.get(url, object : AsyncHttpResponseHandler() {
             override fun onSuccess(statusCode: Int, headers: Array<out Header>, responseBody: ByteArray) {
                 binding.progressBar.visibility = View.INVISIBLE
                 val listuser = ArrayList<Github>()
-
                 try {
                     val result = String(responseBody)
                     Log.d(TAG, result)

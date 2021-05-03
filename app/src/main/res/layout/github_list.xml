@@ -10,11 +10,6 @@
 
 
 
-
-
-
-
-
     <TextView
         android:id="@+id/tv_item_name"
         android:layout_width="wrap_content"
@@ -42,7 +37,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:src="@android:color/darker_gray" />
 
-    <!--    </LinearLayout>-->
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

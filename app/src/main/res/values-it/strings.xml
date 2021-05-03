@@ -17,4 +17,11 @@
     <string name="tab_text_2">A seguire %1$d</string>
     <string name="tab_text_3"> Ambientazione</string>
     <string name="detail_act">Profilo dettagliato</string>
+    <string name="fav">Preferito</string>
+    <string name="setting">impostazioni</string>
+    <string name="remind">avvertimento</string>
+    <string name="language">Impostazione della lingua</string>
+    <string name="add_widget">Add widget</string>
+    <string name="appwidget_text">STAR WARS BANNER</string>
+    <string name="empty_text">NO DATA</string>
 </resources>

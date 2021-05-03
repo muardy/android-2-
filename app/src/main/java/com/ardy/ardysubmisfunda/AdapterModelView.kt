@@ -34,6 +34,7 @@ class AdapterModelView: RecyclerView.Adapter<AdapterModelView.WeatherViewHolder>
             val activity = weatherViewHolder.itemView.context as Activity
             val intent = Intent(activity , Detailgithub::class.java).apply {
                 putExtra(Detailgithub.ARG_section_username, mData[position])
+
             }
             activity.startActivity(intent)
         }

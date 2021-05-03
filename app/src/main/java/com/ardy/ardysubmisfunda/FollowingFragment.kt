@@ -29,10 +29,9 @@ class FollowingFragment : Fragment() {
             val fragment = FollowingFragment()
             val bundle = Bundle()
             bundle.putString(ARG_section_username, Username)
-
             fragment.arguments  = bundle
-            return fragment
 
+            return fragment
 
         }
 
@@ -65,7 +64,7 @@ class FollowingFragment : Fragment() {
         binding.progressBar.visibility = View.VISIBLE
         val client = AsyncHttpClient()
         val url = "https://api.github.com/users/$username/following"
-        client.addHeader("Authorization","token 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")
+        client.addHeader("Authorization","token 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")
         client.addHeader("User-Agent","request")
         client.get(url, object : AsyncHttpResponseHandler() {
             override fun onSuccess(statusCode: Int, headers: Array<out Header>, responseBody: ByteArray) {
@@ -89,7 +88,6 @@ class FollowingFragment : Fragment() {
                         user.username = username
                         user.photo = avatar
                         listuser.add(user)
-
                     }
                     showRecyclerList()
                     list.addAll(listuser)
@@ -99,7 +97,6 @@ class FollowingFragment : Fragment() {
                 }
             }
             override fun onFailure(statusCode: Int, headers: Array<Header>, responseBody: ByteArray, error: Throwable) {
-                // Jika koneksi gagal
 
                 binding.progressBar.visibility = View.INVISIBLE
                 val errorMessage = when (statusCode) {

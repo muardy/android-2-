@@ -12,7 +12,7 @@ import androidx.appcompat.widget.SearchView
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.ardy.ardysubmisfunda.databinding.ActivityMainBinding
-import android.provider.Settings
+
 
 
 class MainActivity : AppCompatActivity(){
@@ -85,8 +85,15 @@ private fun showRecyclerList(){
     }
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if (item.itemId == R.id.setting) {
-            val mIntent = Intent(Settings.ACTION_LOCALE_SETTINGS)
-            startActivity(mIntent)
+
+            val intent = Intent(this@MainActivity , settings::class.java)
+            startActivity((intent))
+        }
+
+
+        if (item.itemId == R.id.fav) {
+            val intent = Intent(this@MainActivity , Favorite::class.java)
+            startActivity((intent))
         }
         return super.onOptionsItemSelected(item)
     }
